@@ -19,7 +19,7 @@ const customerCreated = await swan.custom.createCustomer({
   emailsTier_1: email1,
   emailsTier_2: email2,
 });
-console.log('Customer Created:', customerCreated);
+console.log('Customer Created:', customerCreated.data);
 
 const customerConfig = await swan.custom.getCustomCustomerConfig(testStoreUrl);
-console.log('Customer Config:', customerConfig);
+console.log('Customer Config:', customerConfig.data);
