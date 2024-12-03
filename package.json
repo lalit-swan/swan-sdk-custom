@@ -1,0 +1,17 @@
+{
+  "name": "swan-sdk-custom",
+  "version": "1.0.0",
+  "description": "Sample script to demonstrate how to use the swan-ai-measurements SDK for Custom",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@swan-admin/swan-ai-measurements": "^1.1.51",
+    "dotenv": "^16.4.6"
+  }
+}
