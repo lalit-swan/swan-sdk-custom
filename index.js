@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 console.log(process.env.SWAN_API_KEY);
-const swan = new Swan(process.env.SWAN_API_KEY, true);
+const swan = new Swan(process.env.SWAN_API_KEY);
 
 const timestamp = Date.now();
 const testStoreUrl = `https://swantest-store-${timestamp}.com`;
