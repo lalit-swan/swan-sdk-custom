@@ -26,7 +26,9 @@ Pre-requisites:
   }
   ```
 
-- Update the .env file with your SWAN_API_KEY
+- Update the .env file with -
+  - your SWAN_API_KEY
+  - WEBHOOK_URL where the measurement data will be sent
 
 - Run the sample
   ```bash
